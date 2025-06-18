@@ -24,12 +24,9 @@ Ramses
 - [ ] Remove the div with a class of footer.
 */
 
-// Try rewriting this without using querySelector
+
 // Try rewriting this without using querySelector
 const header = document.querySelector("#container");
-
-
-const container = document.getElementById("container");
 const container = document.getElementById("container");
 
 //Selecting section with id of container using querySelector
@@ -49,30 +46,3 @@ console.log("Problem 4");
 
 
 const thirdOlItem = document.querySelector("ol .third");
-
-//Frank Functions
-//- [ ] Give the section with an id of container the text "Hello!".
-newP = document.createElement('p');
-newP.innerText = "hello";
-containerByID = document.getElementById("container");
-containerByID.appendChild(newP);
-//- [ ] Add the class main to the div with a class of footer.
-footerDiv = document.querySelector(".footer");
-footerDiv.classList.add("main");
-//- [ ] Remove the class main on the div with a class of footer.
-footerDiv.classList.remove("main");
-//- [ ] Create a new li element.
-newLi = document.createElement("li");
-
-//- [ ] Give the li the text "four".
-newLi.innerText = "four";
-//- [ ] Append the li to the ul element.
-ulElement = document.querySelector('ul');
-ulElement.appendChild(newLi);
-//- [ ] Loop over all of the lis inside the ol tag and give them a background color of "green".
-olLis = document.querySelectorAll("ol li");
-olLis.forEach(li => {
-    li.style.backgroundColor = "green";
-});
-//- [ ] Remove the div with a class of footer.
-footerDiv.remove();
