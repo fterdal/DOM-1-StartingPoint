@@ -17,14 +17,14 @@ Frank
 
 Ramses
 - [✅] Give the li the text "four".
-- [ ] Append the li to the ul element.
+- [✅] Append the li to the ul element.
 - [ ] Loop over all of the lis inside the ol tag and give them a background color of "green".
 - [ ] Remove the div with a class of footer.
 */
 
 // Try rewriting this without using querySelector
-const header = document.querySelector("#container");
-console.log("header", header);
+//const header = document.querySelector("#container");
+//console.log("header", header);
 
 
 
