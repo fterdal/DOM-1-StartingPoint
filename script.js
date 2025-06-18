@@ -26,3 +26,20 @@ console.log("Section (Using Query Selector): ", sectionWithQuery);
 // Select all of the list items with a class of "second".
 const secondItems = document.querySelectorAll("li.second");
 console.log("List items with class 'second': ", secondItems);
+
+
+
+// Append the li to the ul element.
+
+const 
+console.log()
+
+// Loop over all of the lis inside the ol tag and give them a background color of "green".
+
+const 
+console.log()
+
+// Remove the div with a class of footer.
+
+const 
+console.log()
