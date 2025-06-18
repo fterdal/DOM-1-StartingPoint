@@ -26,8 +26,10 @@ console.log("header", header);
 
 //Frank Functions
 //- [ ] Give the section with an id of container the text "Hello!".
+newP = document.createElement('p');
+newP.innerText = "hello";
 containerByID = document.getElementById("container");
-containerByID.innerText = "hello";
+containerByID.appendChild(newP);
 //- [ ] Add the class main to the div with a class of footer.
 footerDiv = document.querySelector(".footer");
 footerDiv.classList.add("main");
