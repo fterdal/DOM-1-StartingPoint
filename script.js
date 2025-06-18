@@ -27,7 +27,6 @@ console.log("Section (Using Query Selector): ", sectionWithQuery);
 const secondItems = document.querySelectorAll("li.second");
 console.log("List items with class 'second': ", secondItems);
 
-<<<<<<< HEAD
 
 
 // Append the li to the ul element.
@@ -44,7 +43,7 @@ console.log()
 
 const 
 console.log()
-=======
+
 // Remove the class main on the div with a class of footer.
 footerDiv.classList.remove('main');
 
@@ -54,4 +53,3 @@ const newLi = document.createElement('li');
 // Give the li the text "four".
 pText.textcontent = "four";
 
->>>>>>> f131a27b87a7a86f51d5ea04133fed6085a3faca
