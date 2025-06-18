@@ -10,9 +10,9 @@ console.log("Hello! If you see this, the script is working.");
 - [x] Remove the class main on the div with a class of footer.
 - [x] Create a new li element.
 - [x] Give the li the text "four".
-- [ ] Append the li to the ul element.
-- [ ] Loop over all of the lis inside the ol tag and give them a background color of "green".
-- [ ] Remove the div with a class of footer.
+- [X] Append the li to the ul element.
+- [X] Loop over all of the lis inside the ol tag and give them a background color of "green".
+- [X] Remove the div with a class of footer.
 */
 
 // Select the section with an id of container without using querySelector.
@@ -27,31 +27,25 @@ console.log("Section (Using Query Selector): ", sectionWithQuery);
 const secondItems = document.querySelectorAll("li.second");
 console.log("List items with class 'second': ", secondItems);
 
-<<<<<<< HEAD
 
-
+//Aiyanna - tasks done
 // Append the li to the ul element.
 
-const 
+const appendElement = document.querySelector("ul").append(newLi);
 console.log()
 
 // Loop over all of the lis inside the ol tag and give them a background color of "green".
 
-const 
-console.log()
+const styleColor = document.querySelectorAll("ol li");
+[...styleColor].forEach(element => {
+    element.style.backgroundColor = "green";
+    
+});
+console.log(styleColor)
 
 // Remove the div with a class of footer.
 
-const 
+const footerClass = document.getElementsByClassName("footer");
+footerClass.parentNode.removeChild(footerClass);
+
 console.log()
-=======
-// Remove the class main on the div with a class of footer.
-footerDiv.classList.remove('main');
-
-// Create a new li element.
-const newLi = document.createElement('li');
-
-// Give the li the text "four".
-pText.textcontent = "four";
-
->>>>>>> f131a27b87a7a86f51d5ea04133fed6085a3faca
