@@ -1,21 +1,17 @@
 console.log("Hello! If you see this, the script is working.");
 
-console.log("Problem 1");
-
 /*
-<<<<<<< HEAD
-
+Michaelangelo
 - [ ] Select the section with an id of container without using querySelector.
 - [ ] Select the section with an id of container using querySelector.
 - [ ] Select all of the list items with a class of "second".
 - [ ] Select a list item with a class of third, but only the list item inside of the ol tag.
-/*
+ 
+Frank
 - [ ] Give the section with an id of container the text "Hello!".
 - [ ] Add the class main to the div with a class of footer.
 - [ ] Remove the class main on the div with a class of footer.
 - [ ] Create a new li element.
-
-
 
 Ramses
 - [ ] Give the li the text "four".
@@ -25,27 +21,19 @@ Ramses
 */
 
 // Try rewriting this without using querySelector
-// Try rewriting this without using querySelector
 const header = document.querySelector("#container");
+console.log("header", header);
 
-
-const container = document.getElementById("container");
-const container = document.getElementById("container");
-
-//Selecting section with id of container using querySelector
-console.log("Problem 2");
-
-const containerQuery = document.querySelector("#container");
-console.log("containerQuery", containerQuery);
-
-// Selecting all list items with a class of "second"
-console.log("Problem 3");
-
-const secondItems = document.getElementsByClassName("second");
-console.log("secondItems", secondItems);
-
-// Selecting a list item with a class of third, but only the list item inside of the ol tag
-console.log("Problem 4");
-
-
-const thirdOlItem = document.querySelector("ol .third");
+//Frank Functions
+//- [ ] Give the section with an id of container the text "Hello!".
+newP = document.createElement('p');
+newP.innerText = "hello";
+containerByID = document.getElementById("container");
+containerByID.appendChild(newP);
+//- [ ] Add the class main to the div with a class of footer.
+footerDiv = document.querySelector(".footer");
+footerDiv.classList.add("main");
+//- [ ] Remove the class main on the div with a class of footer.
+footerDiv.classList.remove("main");
+//- [ ] Create a new li element.
+newLi = document.createElement("li");
