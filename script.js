@@ -3,17 +3,27 @@ console.log("Hello! If you see this, the script is working.");
 console.log("Problem 1");
 
 /*
+<<<<<<< HEAD
 
+=======
+Michaelangelo
+>>>>>>> 47da39e807c92295200761fab2fa6eafbc03cd24
 - [ ] Select the section with an id of container without using querySelector.
 - [ ] Select the section with an id of container using querySelector.
 - [ ] Select all of the list items with a class of "second".
 - [ ] Select a list item with a class of third, but only the list item inside of the ol tag.
+<<<<<<< HEAD
 /*
+=======
+ 
+Frank
+>>>>>>> 47da39e807c92295200761fab2fa6eafbc03cd24
 - [ ] Give the section with an id of container the text "Hello!".
 - [ ] Add the class main to the div with a class of footer.
 - [ ] Remove the class main on the div with a class of footer.
 - [ ] Create a new li element.
 
+Ramses
 - [ ] Give the li the text "four".
 - [ ] Append the li to the ul element.
 - [ ] Loop over all of the lis inside the ol tag and give them a background color of "green".
@@ -21,6 +31,7 @@ console.log("Problem 1");
 */
 
 // Try rewriting this without using querySelector
+<<<<<<< HEAD
 const header = document.getElementById("header");
 header.textContent = "Hello!";
 
@@ -44,3 +55,19 @@ console.log("Problem 4");
 
 const thirdItem = document.querySelector("ol .third");
 console.log("thirdItem", thirdItem);
+=======
+const header = document.querySelector("#container");
+console.log("header", header);
+
+//Frank Functions
+//- [ ] Give the section with an id of container the text "Hello!".
+containerByID = document.getElementById("container");
+containerByID.innerText = "hello";
+//- [ ] Add the class main to the div with a class of footer.
+footerDiv = document.querySelector(".footer");
+footerDiv.classList.add("main");
+//- [ ] Remove the class main on the div with a class of footer.
+footerDiv.classList.remove("main");
+//- [ ] Create a new li element.
+newLi = document.createElement("li");
+>>>>>>> 47da39e807c92295200761fab2fa6eafbc03cd24
