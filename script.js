@@ -11,6 +11,8 @@ console.log("Hello! If you see this, the script is working.");
 - [ ] Remove the class main on the div with a class of footer.
 - [ ] Create a new li element.
 
+
+
 - [ ] Give the li the text "four".
 - [ ] Append the li to the ul element.
 - [ ] Loop over all of the lis inside the ol tag and give them a background color of "green".
@@ -21,4 +23,7 @@ console.log("Hello! If you see this, the script is working.");
 const header = document.querySelector("#container");
 console.log("header", header);
 
-//test
+
+document.getElementById("container").innerHTML = <li class="four">four</li>;
+
+
