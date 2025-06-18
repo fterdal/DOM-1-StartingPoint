@@ -23,3 +23,15 @@ Ramses
 // Try rewriting this without using querySelector
 const header = document.querySelector("#container");
 console.log("header", header);
+
+//Frank Functions
+//- [ ] Give the section with an id of container the text "Hello!".
+containerByID = document.getElementById("container");
+containerByID.innerText = "hello";
+//- [ ] Add the class main to the div with a class of footer.
+footerDiv = document.querySelector(".footer");
+footerDiv.classList.add("main");
+//- [ ] Remove the class main on the div with a class of footer.
+footerDiv.classList.remove("main");
+//- [ ] Create a new li element.
+newLi = document.createElement("li");
