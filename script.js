@@ -1,9 +1,9 @@
 console.log("Hello! If you see this, the script is working.");
 
 /*
-- [ ] Select the section with an id of container without using querySelector.
-- [ ] Select the section with an id of container using querySelector.
-- [ ] Select all of the list items with a class of "second".
+- [x] Select the section with an id of container without using querySelector.
+- [x] Select the section with an id of container using querySelector.
+- [x] Select all of the list items with a class of "second".
 - [ ] Select a list item with a class of third, but only the list item inside of the ol tag.
 - [ ] Give the section with an id of container the text "Hello!".
 - [ ] Add the class main to the div with a class of footer.
@@ -15,6 +15,14 @@ console.log("Hello! If you see this, the script is working.");
 - [ ] Remove the div with a class of footer.
 */
 
-// Try rewriting this without using querySelector
-const header = document.querySelector("#container");
-console.log("header", header);
+// Select the section with an id of container without using querySelector.
+const sectionNoQuery = document.getElementById("container");
+console.log("Section (Without using Query Selector): ", sectionNoQuery);
+
+// Select the section with an id of container using querySelector.
+const sectionWithQuery = document.querySelector("#container");
+console.log("Section (Using Query Selector): ", sectionWithQuery);
+
+// Select all of the list items with a class of "second".
+const secondItems = document.querySelectorAll("li.second");
+console.log("List items with class 'second': ", secondItems);
