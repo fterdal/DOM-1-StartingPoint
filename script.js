@@ -15,7 +15,6 @@ console.log("Hello! If you see this, the script is working.");
 - [ ] Remove the div with a class of footer.
 */
 
-<<<<<<< HEAD
 // Select the section with an id of container without using querySelector.
 const sectionNoQuery = document.getElementById("container");
 console.log("Section (Without using Query Selector): ", sectionNoQuery);
@@ -27,7 +26,6 @@ console.log("Section (Using Query Selector): ", sectionWithQuery);
 // Select all of the list items with a class of "second".
 const secondItems = document.querySelectorAll("li.second");
 console.log("List items with class 'second': ", secondItems);
-=======
 // Remove the class main on the div with a class of footer.
 footerDiv.classList.remove('main');
 
@@ -37,4 +35,3 @@ const newLi = document.createElement('li');
 // Give the li the text "four".
 pText.textcontent = "four";
 
->>>>>>> j-branch
