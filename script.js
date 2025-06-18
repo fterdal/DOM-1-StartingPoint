@@ -12,12 +12,17 @@ console.log("Hello! If you see this, the script is working.");
 
 
 
-- [ ] Select all of the list items with a class of "second".
+- [ ] Select all of the list items with a class of "second".*/
+const seconds = document.querySelectorAll(".second");
+
+seconds.forEach((item, index) => {
+  console.log(`.second item ${index + 1}:`, item);
+});
 
 
 
 
-- [ ] Select a list item with a class of third, but only the list item inside of the ol tag.
+/*- [ ] Select a list item with a class of third, but only the list item inside of the ol tag.
 
 
 
