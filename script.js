@@ -20,9 +20,8 @@ console.log("Hello! If you see this, the script is working.");
 */
 
 // Try rewriting this without using querySelector
-// Try rewriting this without using querySelector
-const header = document.querySelector("#container");
-
+//const header = document.querySelector("#container");
+//console.log("header", header);
 
 //Select the section with an id of container without using querySelector
 console.log("Problem 1");
@@ -48,7 +47,7 @@ const thirdOlItem = document.querySelector("ol .third");
 console.log("thirdOlItem", thirdOlItem)
 
 //Frank Functions
-//- [ ] Give the section with an id of container the text "Hello!".
+//- [ ] Give the section with an id of container the text "Hello!"
 newP = document.createElement('p');
 newP.innerText = "hello";
 containerByID = document.getElementById("container");
