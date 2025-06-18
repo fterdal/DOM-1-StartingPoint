@@ -15,6 +15,11 @@ console.log("Hello! If you see this, the script is working.");
 - [ ] Remove the div with a class of footer.
 */
 
+
+// - [ ] Remove the class main on the div with a class of footer.
+// - [ ] Create a new li element.
+// - [ ] Give the li the text "four".
+
 // Try rewriting this without using querySelector
 const header = document.querySelector("#container");
 console.log("header", header);
