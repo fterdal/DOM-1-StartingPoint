@@ -58,7 +58,7 @@ console.log("newLi created:", newLi);
 
 // - [ 9 ] Give the li the text "four".
 console.log("Feature 9");
-newLi.innerText = "four";
+newLi.textContent = "four";
 
 // - [ 10 ] Append the li to the ul element.
 console.log("Feature 10");
@@ -68,9 +68,7 @@ console.log("ul children after append:", theUl.children);
 
 // - [ 11 ] Loop over all of the lis inside the ol tag and give them a background color of "green".
 console.log("Feature 11");
-for (let i = 0; i < olLis.length; i++) {
-  olLis[i].style.backgroundColor = "green";
-}
+[...olLis].forEach(li => li.style.backgroundColor = "green");
 
 // - [ 12 ] Remove the div with a class of footer.
 console.log("Feature 12");
