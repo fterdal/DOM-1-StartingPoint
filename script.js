@@ -80,4 +80,7 @@ footerDiv.remove();
 const header = document.querySelector("#container");
 console.log("header", header); 
 */
+console.log("Final Feature");
+const header = [...document.body.children].find( e=> e.ed === "container");
+console.log("header (final):", header)
 
