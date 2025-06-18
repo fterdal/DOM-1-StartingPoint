@@ -13,13 +13,10 @@ Frank
 - [ ] Remove the class main on the div with a class of footer.
 - [ ] Create a new li element.
 
-<<<<<<< HEAD
 
 
-=======
 Ramses
->>>>>>> origin/main
-- [ ] Give the li the text "four".
+- [✅] Give the li the text "four".
 - [ ] Append the li to the ul element.
 - [ ] Loop over all of the lis inside the ol tag and give them a background color of "green".
 - [ ] Remove the div with a class of footer.
@@ -29,12 +26,9 @@ Ramses
 const header = document.querySelector("#container");
 console.log("header", header);
 
-<<<<<<< HEAD
-
-document.getElementById("container").innerHTML = <li class="four">four</li>;
 
 
-=======
+
 //Frank Functions
 //- [ ] Give the section with an id of container the text "Hello!".
 containerByID = document.getElementById("container");
@@ -46,4 +40,11 @@ footerDiv.classList.add("main");
 footerDiv.classList.remove("main");
 //- [ ] Create a new li element.
 newLi = document.createElement("li");
->>>>>>> origin/main
+
+
+
+//Ramses Functions
+
+const newLi = document.createElement("li");
+newLi.textContent = "four";
+document.querySelector("ul").appendChild(newLi)
