@@ -1,7 +1,5 @@
 console.log("Hello! If you see this, the script is working.");
 
-console.log("Problem 1");
-
 /*
 <<<<<<< HEAD
 
@@ -26,8 +24,11 @@ console.log("Problem 1");
 const header = document.querySelector("#container");
 
 
+//Select the section with an id of container without using querySelector
+console.log("Problem 1");
+
 const container = document.getElementById("container");
-const container = document.getElementById("container");
+console.log("container", container);
 
 //Selecting section with id of container using querySelector
 console.log("Problem 2");
@@ -43,9 +44,8 @@ console.log("secondItems", secondItems);
 
 // Selecting a list item with a class of third, but only the list item inside of the ol tag
 console.log("Problem 4");
-
-
 const thirdOlItem = document.querySelector("ol .third");
+console.log("thirdOlItem", thirdOlItem)
 
 //Frank Functions
 //- [ ] Give the section with an id of container the text "Hello!".
