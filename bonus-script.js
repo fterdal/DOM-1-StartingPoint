@@ -67,61 +67,6 @@ h5.style.border = "thick solid  #DA667B"; //color code for border
 
 root.appendChild(h5);
 
-/*
-//new stuff starts here
-const root2 = document.getElementById("root2");
-const h2 = document.createElement("h2");
-h2.innerText =
-  "Name: Aiyanna ";
-//h2.className = "h2";
-h2.style.fontFamily = "Georgia, serif";
-h2.style.backgroundColor = "DA667B";
-h2.style.border = "thick solid  #DA667B"; //color code for border
-
-root2.appendChild(h2);
-
-
-*/
-
-// THIS STUFF WORKS PLEASE DO NOT DELETE :'C
-/*
-const h2 = document.createElement("h2");
-h2.innerText =
-  "Name: Aiyanna ";
-h2.style.fontFamily = "Georgia, serif";
-h2.style.backgroundColor = "DA667B";
-h2.style.border = "thick solid  #DA667B"; //color code for border
-root.appendChild(h2);
-
-const p = document.createElement("p");
-p.innerText =
-  " Hello! \n I'm a CIS major, and I became interested in technology through media such as cartoons and video games.\n The hobbies that I spend the most time on are figure skating, art, and cosplay (I love going to anime conventions).\n A few years ago I took in a senior dog named Fluffy. I like mangoes.";
-
-p.style.fontFamily = "Georgia, serif";
-p.style.backgroundColor = "#DA667B";
-root.appendChild(p);
-
-
-
-
-const h3 = document.createElement("h3");
-h3.innerText =
-  "Name: New Person \n"
-h3.style.fontFamily = "Georgia, serif";
-h3.style.backgroundColor = "DA667B";
-h3.style.border = "thick solid  #DA667B"; //color code for border
-root.appendChild(h3);
-
-const p2 = document.createElement("p");
-p2.innerText =
-  "Insert your bio here \n Insert your bio here.";
-
-p2.style.fontFamily = "Georgia, serif";
-p2.style.backgroundColor = "#DA667B";
-root.appendChild(p2);
-
-
-*/
 
 console.log()
 
