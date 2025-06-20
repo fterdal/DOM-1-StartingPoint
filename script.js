@@ -88,3 +88,22 @@ for (let element of ilElements)
 console.log("12:");
 
 footer.remove();
+
+//10-12
+// Append the li to the ul element.
+const newLi = document.createElement('li');
+newLi.textContent = 'New list item';
+const ul = document.querySelector('ul');
+ul.appendChild(newLi);
+
+// Loop over all of the lis inside the ol tag and give them a background color of "green".
+const olLis = document.querySelectorAll('ol li');
+olLis.forEach(li => {
+  li.style.backgroundColor = 'green';
+});
+
+// Remove the div with a class of footer.
+const footerDiv = document.querySelector('div.footer');
+if (footerDiv) {
+  footerDiv.remove();
+}
